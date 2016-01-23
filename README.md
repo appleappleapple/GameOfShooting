@@ -4,7 +4,7 @@
  
 **若是觉得本项目对你有用，那么请给辛苦的笔者右上角Star一颗星星！不胜感激～～～～**
 #简要介绍
-《雷电大战》是一框射击类游戏，代码全部是本人原创，资源图片部分原创，部分网上搜集。游戏的具体代码实现过程以及游戏效果请看笔者博客地址：[http://blog.csdn.net/evankaka](http://blog.csdn.net/evankaka "http://blog.csdn.net/evankaka")
+《雷电大战》是一款射击类游戏，代码全部是本人原创，资源图片部分原创，部分网上搜集。游戏的具体代码实现过程以及游戏效果请看笔者博客地址：[http://blog.csdn.net/evankaka](http://blog.csdn.net/evankaka "http://blog.csdn.net/evankaka")
 #游戏专辑
 [http://blog.csdn.net/column/details/cocos2dxforgame.html](http://blog.csdn.net/column/details/cocos2dxforgame.html)(此专辑还收录了《赵云要格斗》)
 #专辑目录
@@ -29,4 +29,4 @@ Cocos2d-x版本:3.3 以上（至少3.x）
 ###3.资源路径
 主目录Resources文件夹下  
 #其它Cocos2d-x项目
-《赵云要格斗》
+[《赵云要格斗》](https://github.com/appleappleapple/GameOfFighting)
