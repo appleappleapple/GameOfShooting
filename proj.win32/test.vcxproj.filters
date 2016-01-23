@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\英雄飞机子弹类">
+      <UniqueIdentifier>{8029d2fd-ca46-43a2-b945-073bdcc7a882}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\英雄飞机子弹控制层类">
+      <UniqueIdentifier>{618ac12d-5f07-4c8d-9d9b-eba8fdfa13ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\英雄飞机单例类">
+      <UniqueIdentifier>{5aa20443-2524-489b-91d9-81131dbb2544}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\背景无限滚动类">
+      <UniqueIdentifier>{3a4c78a8-5cbf-4db2-b27e-eb35ffdadee0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\游戏主界面类">
+      <UniqueIdentifier>{864807c9-ef79-4596-97c6-8754eae96672}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\游戏入口类">
+      <UniqueIdentifier>{deace2b7-6bd6-44f0-ae4e-871cb9c5f145}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\智能敌机类">
+      <UniqueIdentifier>{0d2e20c5-42df-4b1d-8ec5-721bb2d670cb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HeroBulletTwo.cpp">
+      <Filter>src\英雄飞机子弹类</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HeroBulletThree.cpp">
+      <Filter>src\英雄飞机子弹类</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HeroBulletOne.cpp">
+      <Filter>src\英雄飞机子弹类</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\BulletStyle.cpp">
+      <Filter>src\英雄飞机子弹类</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HeroBulletLayer.cpp">
+      <Filter>src\英雄飞机子弹控制层类</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HeroPlane.cpp">
+      <Filter>src\英雄飞机单例类</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\BackLayerDown.cpp">
+      <Filter>src\背景无限滚动类</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\BackLayerUp.cpp">
+      <Filter>src\背景无限滚动类</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameMain.cpp">
+      <Filter>src\游戏主界面类</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>src\游戏入口类</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HeroBulletTwo.h">
+      <Filter>src\英雄飞机子弹类</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HeroBulletThree.h">
+      <Filter>src\英雄飞机子弹类</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HeroBulletOne.h">
+      <Filter>src\英雄飞机子弹类</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\BulletStyle.h">
+      <Filter>src\英雄飞机子弹类</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HeroBulletLayer.h">
+      <Filter>src\英雄飞机子弹控制层类</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HeroPlane.h">
+      <Filter>src\英雄飞机单例类</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\BackLayerUp.h">
+      <Filter>src\背景无限滚动类</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\BackLayerDown.h">
+      <Filter>src\背景无限滚动类</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameMain.h">
+      <Filter>src\游戏主界面类</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>src\游戏入口类</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
